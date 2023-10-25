@@ -33,6 +33,7 @@ $(NAME): $(OBJS)
 
 bonus:	$(BONUS_OBJS)
 		ar rcs $(NAME) $(BONUS_OBJS)
+		@touch bonus
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)

@@ -49,7 +49,7 @@ char	*get_next_line(int fd)
 			return (NULL);
 	}
 }
-
+/* 
 int	main(void)
 {
 	char	*line;
@@ -71,4 +71,4 @@ int	main(void)
 
 	//printf("FOPEN_MAX = %d\n",FOPEN_MAX);
     return (0);
-}
+}*/
