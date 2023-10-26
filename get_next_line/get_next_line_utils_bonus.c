@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ada-mata <ada-mata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/25 14:45:45 by ada-mata          #+#    #+#             */
-/*   Updated: 2023/10/26 15:46:59 by ada-mata         ###   ########.fr       */
+/*   Created: 2023/10/26 13:37:29 by ada-mata          #+#    #+#             */
+/*   Updated: 2023/10/26 15:46:53 by ada-mata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 char	*buffer_total_clear(int fd, char **buffer, char *line)
 {
