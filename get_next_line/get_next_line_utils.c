@@ -33,7 +33,7 @@ int	line_updater(char **line, char buffer[])
 	int		i;
 
 	join = ft_strjoinm(*line, buffer);
-	free(*line);
+	free(*line);                                  
 	if (join == NULL)
 		return (-1);
 	*line = join;
