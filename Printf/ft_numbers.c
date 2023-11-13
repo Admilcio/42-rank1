@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_numbers.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ada-mata <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: ada-mata <ada-mata@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/16 12:06:05 by ada-mata          #+#    #+#             */
-/*   Updated: 2023/10/16 12:06:08 by ada-mata         ###   ########.fr       */
+/*   Updated: 2023/11/13 15:26:34 by ada-mata         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,6 @@ void	ft_hexadecimal(unsigned int n, int *len, char x_or_X)
 		ft_putchar_lenght('0', len);
 		return ;
 	}
-	//B
 	while (n != 0)
 	{
 		string[i] = base [n % 16];
